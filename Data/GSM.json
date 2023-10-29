@@ -1,0 +1,119 @@
+{
+    "title": [
+        "p-T3R1"
+    ],
+    "geo_accession": [
+        "GSM4231551"
+    ],
+    "status": [
+        "Public on Dec 24 2019"
+    ],
+    "submission_date": [
+        "Dec 23 2019"
+    ],
+    "last_update_date": [
+        "Dec 24 2019"
+    ],
+    "type": [
+        "SRA"
+    ],
+    "channel_count": [
+        "1"
+    ],
+    "source_name_ch1": [
+        "seedling leaf tissue"
+    ],
+    "organism_ch1": [
+        "Arabidopsis thaliana"
+    ],
+    "taxid_ch1": [
+        "3702"
+    ],
+    "characteristics_ch1": [
+        "time point: T3",
+        "cultivar: Col-0",
+        "tissue: leaf",
+        "sampling temperature: 45掳C"
+    ],
+    "treatment_protocol_ch1": [
+        "We collected samples of 11 time-points. 11 plates each containing about 80 germinated Arabidopsis seedlings were divided into the acclimated and non-acclimated group. At each sampling time-point from the experimental design (Figure 2.2 A), all leaf tissue from the designated plate was harvested and divided into two separate Eppendorf tubes, snap-frozen in liquid nitrogen and stored at -80掳C. At day 12 after seed germination, T1 samples were taken right after the start of the photoperiod and before acclimation treatment starts. Plates from acclimated group were exposed to the heat acclimation treatment and samples were taken after 3 h (T2), 6 h (T3) and 7.5 h (T4), while other plates were returned to normal growth conditions and samples were collected two days (T5) and four days (T6) after at 1:30 pm. At day 16, the remaining acclimated and all the non-acclimated plants were exposed to heat shock treatment (45掳C for 90 min), and samples were taken before the heat treatment (T7 for acclimated seedlings, T9 for non-acclimated seedlings), at the end of the heat shock (T8 for acclimated seedlings, T10 for non-acclimated seedlings) and two days after the application of heat stress at 1:30pm (T9 for the acclimated seedlings, T11 for non-acclimated seedlings)."
+    ],
+    "growth_protocol_ch1": [
+        "Plates each containing about 80 Arabidopsis Col-0 seedlings were grown inside growth chamber (Percival) with 22掳C under 16h / 8h of light / dark cycle (~100 渭mol m鈭2 s鈭1) with 60% relative humidity. The acclimation treatment was applied by subjecting plates with Arabidopsis seedlings into the growth chamber (Percival) with the temperature gradually rising from 22飩癈 to 45飩癈 over the course of 6 hours (starting at the beginning of the photoperiod) in the light and keep at 45飩癈 for 90 mins. Subsequently, the plates were transferred back to a growth chamber with standard (22飩癈) temperature. For the heat shock application, the growth chamber (Percival) was pre-heated to 45飩癈 with lighting (~100 渭mol m鈭2 s鈭1) and 60% relative humidity. Each plate containing 80 acclimated or non-acclimated seedlings was transferred from the control growth condition (22飩癈) chamber to a heated growth chamber (45飩癈) for 90 mins from 1:30 pm to 3:00 pm (7.5 - 9h after the beginning of the photoperiod)."
+    ],
+    "molecule_ch1": [
+        "total RNA"
+    ],
+    "extract_protocol_ch1": [
+        "RNA extraction was performed for each sample using RNeasy Plant Mini Kit (Qiagen)",
+        "2渭g of RNA for each sample was used to construct mRNA library following the protocol of Illumina鈥檚 TruSeq Stranded mRNA Library Prep Kit."
+    ],
+    "description": [
+        "replicate 1",
+        "batch1"
+    ],
+    "data_processing": [
+        "bcl2fastq v1.8.4 for raw data processing",
+        "Sequenced reads were trimmed for adaptor sequence, and masked for low-complexity or low-quality sequence, then mapped to TAIR genome by Tophat, and quantified in samtools htseq-count",
+        "Reads were mapped to TAIR10 genome by TopHat (v2.0.14), with Bowtie (2.1.0.0)",
+        "Transcripts were quantified using Samtools ht-seq-count",
+        "Counts per million (cpm) were calculated and normalized by the size of the library.",
+        "Genome_build: Arabidopsis TAIR10",
+        "Supplementary_files_format_and_content: Expression values of cpm (log2 transformed) for each sample."
+    ],
+    "platform_id": [
+        "GPL17639"
+    ],
+    "contact_name": [
+        "Magdalena,,Julkowska"
+    ],
+    "contact_email": [
+        "magdalena.julkowska@kaust.edu.sa"
+    ],
+    "contact_department": [
+        "BESE"
+    ],
+    "contact_institute": [
+        "King Abdullah University of Science and Technology"
+    ],
+    "contact_address": [
+        "KAUST"
+    ],
+    "contact_city": [
+        "Thuwal"
+    ],
+    "contact_state": [
+        "Makkah"
+    ],
+    "contact_zip/postal_code": [
+        "23955-6900"
+    ],
+    "contact_country": [
+        "Saudi Arabia"
+    ],
+    "instrument_model": [
+        "Illumina HiSeq 2500"
+    ],
+    "library_selection": [
+        "cDNA"
+    ],
+    "library_source": [
+        "transcriptomic"
+    ],
+    "library_strategy": [
+        "RNA-Seq"
+    ],
+    "relation": [
+        "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN13673067",
+        "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX7434655"
+    ],
+    "supplementary_file_1": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4231nnn/GSM4231551/suppl/GSM4231551_p-T3R1.sam.count.txt.gz"
+    ],
+    "series_id": [
+        "GSE142537"
+    ],
+    "data_row_count": [
+        "0"
+    ]
+}
